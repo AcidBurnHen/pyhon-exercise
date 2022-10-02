@@ -3,6 +3,7 @@
 username = 'Bear'
 print(type(username))
 
+# Allows the string to be on multiple lines 
 long_string = '''
 WoW
 0 = 0
@@ -69,3 +70,18 @@ print(new_nums[-4])
 
 # When negative index is used with stepover it can print out reversed string
 print(new_nums[::-1])
+
+# The method of manipulating strings with indexes is called string slicing
+
+# Immutability  - Not capable of or susceptible to change
+
+example = '012345657'
+
+# A value of string cannot be changed for example:
+# example[0] = '8'
+# This will throw an error because strings are immutable
+# I can only re-assign a value to the variable 
+
+example = '8'
+
+print(example)
