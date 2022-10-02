@@ -42,3 +42,10 @@ some_value = 5
 some_value += 2
 
 print(some_value)
+
+# Type Conversion 
+
+birth_year = input('What year were you born? 19')
+age = 2022 - int(birth_year)
+
+print(f"Your age is: {age}")
